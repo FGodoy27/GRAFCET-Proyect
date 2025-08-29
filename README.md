@@ -1,0 +1,2 @@
+## Proyect Introduction 
+Grafcet project created for the pneumatic power course, where we had to select a machine, obtain its sequence, and then use this information to design the machine in Autodesk Inventor CAD software. In addition, the Automotion Studio software was used to present a complete simulation of the machine's operation, the Petri net, the simulation of the connections to the PLC, along with all the LADDER programming of the system.
