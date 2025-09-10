@@ -1,5 +1,6 @@
 # Proyect Introduction 
 GRAFCET project created for the pneumatic power course, where we had to select a machine, obtain its sequence, and then use this information to design the machine in Autodesk Inventor CAD software. In addition, the Automotion Studio software was used to present a complete simulation of the machine's operation, the Petri net, the simulation of the connections to the PLC, along with all the LADDER programming of the system.
+[This is the direct link to the video, which provides a description of everything included in the project and an explanation.](https://youtu.be/RDDje7MGE70)
 
 # Selected Machine and its Operating Sequence
 ## Machine
@@ -18,7 +19,9 @@ The machine was created from scratch in Inventor, using the image where the sequ
 
 # Machine Simulation in Automotion Studio
 The simulation created in Automotion indicates all the elements that are included and necessary for the machine to operate. We will now proceed to describe everything that belongs to the system.
+
 <img width="1920" height="1080" alt="A" src="assets/auto_1.png" />
+
 In the image, we see the four pistons labeled (A, B, C, D), each of which is connected to a 5/2 monostable solenoid valve. In addition, there are two magnetic sensors on the piston skirt, labeled according to the piston on which they are located. These sensors indicate (1,0) depending on whether the piston is extended or closed.<br>
 Piston C is shown as an example, which is responsible for the cleaning tray.<br>
 
