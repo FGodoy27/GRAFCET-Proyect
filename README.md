@@ -24,21 +24,25 @@ The simulation created in Automotion indicates all the elements that are include
 
 In the image, we see the four pistons labeled (A, B, C, D), each of which is connected to a 5/2 monostable solenoid valve. In addition, there are two magnetic sensors on the piston skirt, labeled according to the piston on which they are located. These sensors indicate (1,0) depending on whether the piston is extended or closed.<br>
 
-#### Individual Pneumatic System
+### Individual Pneumatic System
 Piston C is shown as an example, which is responsible for the cleaning tray.<br>
 
 <img  alt="A" src="assets/auto_2.png" />
 
-#### Buttons
+### Buttons
  In this same image, on the right-hand side, we find a series of buttons, each of which counts as an input for the PLC, for the Petri net, and likewise for the LADDER. 
 We therefore have four buttons: two green ones, one blue one, and the emergency stop button, which is red.
 
 <img alt="A" src="assets/auto_3.png" />
 
-The first green button is responsible for starting the entire system, which we refer to in the TIA Portal as OB100.
-The second green button is responsible for activating a relay, whose normally closed pins contain the three phases necessary to activate the motor. This is responsible for starting the movement of the conveyor belt. The location of the motor can be seen in the Inventor model section.
-The blue button activates the entire pneumatic line of the machine, allowing air to pass through all the solenoid valves.
+The first green button is responsible for starting the entire system, which we refer to in the TIA Portal as OB100.<br>
+The second green button is responsible for activating a relay, whose normally closed pins contain the three phases necessary to activate the motor. This is responsible for starting the movement of the conveyor belt. The location of the motor can be seen in the Inventor model section.<br>
+The blue button activates the entire pneumatic line of the machine, allowing air to pass through all the solenoid valves.<br>
 Finally, we have the emergency stop button, which is responsible for cutting off the power and stopping the entire process. The LADDER will then show where the reset for this button goes, in order to determine the position in which the entire system is initialized.
+
+### Motor Conections
+### Led Fill Indicator
+
 ## falta describir mas cosas como el rele y el bolbillo
 
 # Input and Output Connections
