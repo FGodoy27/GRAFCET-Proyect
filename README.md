@@ -1,5 +1,5 @@
 # Proyect Introduction 
-GRAFCET project created for the pneumatic power course, where we had to select a machine, obtain its sequence, and then use this information to design the machine in Autodesk Inventor CAD software. In addition, the Automotion Studio software was used to present a complete simulation of the machine's operation, the Petri net, the simulation of the connections to the PLC, along with all the LADDER programming of the system.
+GRAFCET project created for the pneumatic power course, where we had to select a machine, obtain its sequence, and then use this information to design the machine in Autodesk Inventor CAD software. In addition, the Automotion Studio software was used to present a complete simulation of the machine's operation, the Petri net, the simulation of the connections to the PLC, along with all the LADDER programming of the system. <br>
 [This is the direct link to the video, which provides a description of everything included in the project and an explanation.](https://youtu.be/RDDje7MGE70)
 
 # Selected Machine and its Operating Sequence
@@ -37,4 +37,8 @@ The second green button is responsible for activating a relay, whose normally cl
 The blue button activates the entire pneumatic line of the machine, allowing air to pass through all the solenoid valves.
 Finally, we have the emergency stop button, which is responsible for cutting off the power and stopping the entire process. The LADDER will then show where the reset for this button goes, in order to determine the position in which the entire system is initialized.
 
-# Selected Machine and its Operating Sequence
+# Input and Output Connections
+With the system and operation of the machine described. We will now proceed to illustrate the inputs and outputs of the system, making it easier for the reader to understand and manage. <br>
+So, now we are going to look at a virtual PLC from the Automotion Studio program, where the inputs are integrated on the left side and the outputs on the right side, each of which has its description in black.<br>
+The system, like PLCs, has 24 inputs and outputs, which explains why the connections are direct to sensors, solenoids, buttons, and coils.<br>
+<img alt="A" src="assets/PLC.png" />
