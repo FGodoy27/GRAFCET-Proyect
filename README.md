@@ -41,12 +41,15 @@ The blue button activates the entire pneumatic line of the machine, allowing air
 Finally, we have the emergency stop button, which is responsible for cutting off the power and stopping the entire process. The LADDER will then show where the reset for this button goes, in order to determine the position in which the entire system is initialized.
 
 ### Motor Conections
+The motor connection diagram shows how the three motor phase lines are connected by activating a relay. The relay is connected to the PLC at output 0. This motor drives the conveyor belt and never stops unless the emergency stop button is pressed, which is activated by the starter button at input 13 of the PLC.<br>
+<img alt="A" src="assets/motor.png" />
+
 ### Led Fill Indicator
+The LED bulb is responsible for providing a visual indication of when the bottles are being filled with viscous liquid. It lights up green throughout the entire filling process. The LED connection is located at output 13 of the PLC.
+<img alt="A" src="assets/led.png" />
 
-## falta describir mas cosas como el rele y el bolbillo
-
-# Input and Output Connections
+# Input and Output Connections (PLC Connections)
 With the system and operation of the machine described. We will now proceed to illustrate the inputs and outputs of the system, making it easier for the reader to understand and manage. <br>
 So, now we are going to look at a virtual PLC from the Automotion Studio program, where the inputs are integrated on the left side and the outputs on the right side, each of which has its description in black.<br>
-The system, like PLCs, has 24 inputs and outputs, which explains why the connections are direct to sensors, solenoids, buttons, and coils.<br>
+The system, like PLCs, has 24 V inputs and outputs, which explains why the connections are direct to sensors, solenoids, buttons, and coils.<br>
 <img alt="A" src="assets/PLC.png" />
