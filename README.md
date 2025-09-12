@@ -56,7 +56,7 @@ The system, like PLCs, has 24 V inputs and outputs, which explains why the conne
 
 # Petri Net
 Now that we know how the system connections are arranged, we can proceed to show the Petri net arrangements, which provide the programmed instructions for each stage of operation. This makes subsequent PLC programming and understanding easier for everyone. <br>
-For this network, the boxes represent the states of the machine, which are directly equivalent to the outputs or actions of the machine, i.e., the movement of the pistons. This can be seen in the image due to the accompanying elements on the right-hand side of these states. <br>
- The bars between states are the transitions, which are basically the requirements that must be met in order to move from one state to another. These are often related to the PLC inputs, as shown in the image, where the sensor activations are what cause the change between stages or states.
+For this net, the boxes represent the states of the machine, which are directly equivalent to the outputs or actions of the machine. Basically, this is what causes the pistons to move. In the image, you can see this because of the accompanying states on the right-hand side. <br>
+The bars between states are the transitions, which are basically the requirements that must be met in order to move from one state to another. These are often related to the PLC inputs, as shown in the image, where the sensor activations are what cause the change between stages or states.
  <img alt="A" src="assets/petri_1.png" />
  <img alt="A" src="assets/petri_2.png" />
