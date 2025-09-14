@@ -60,3 +60,13 @@ For this net, the boxes represent the states of the machine, which are directly 
 The bars between states are the transitions, which are basically the requirements that must be met in order to move from one state to another. These are often related to the PLC inputs, as shown in the image, where the sensor activations are what cause the change between stages or states.
  <img alt="A" src="assets/petri_1.png" />
  <img alt="A" src="assets/petri_2.png" />
+
+ # Ladder Program of the System
+For the ladder diagram of this machine, we already know the essentials for programming (inputs, outputs, and states). <br>
+
+<img alt="A" src="assets/lad_1.png" />
+<img alt="A" src="assets/lad_2.png" />
+<img alt="A" src="assets/lad_3.png" />
+<img alt="A" src="assets/lad_4.png" />
+<img alt="A" src="assets/lad_5.png" />
+<img alt="A" src="assets/lad_6.png" />
